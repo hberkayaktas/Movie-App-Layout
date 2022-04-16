@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App Layout </title>
+    <link rel="stylesheet" href="00extras/scrollbar.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/efbea0bd0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="00extras/movie_app.css" type="text/css" />
+    
+
+</head>
+<body>
+    <div id="sayfa">
+        <div id="main">
+            <header>
+                <div id="searchbar">
+                    <form>
+                        <input type="text" placeholder="Ara...">
+                        <button id="kucuk" onclick="submit()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div id="personal">
+                    <ul>
+                        <li id="kucuk"><i class="fa-solid fa-user"></i></li>
+                        <li id="kucuk"><i class="fa-regular fa-bell"></i></i></li>
+                    </ul>
+                </div>
+            </header>
+            <article>
+            <div id="tags">
+                <ul>
+                    <li>Comedy</li>
+                    <li>History</li>
+                    <li>Document</li>
+                    <li>Action</li>
+                    <li>Drama</li>
+                    <li>Fantasy</li>
+                    <li>Romance</li>
+                </ul>
+            </div>
+            <div id="sliderPush">
+                <div id="slider">
+                    <div id="onboard">
+                        <img src="00extras/banner1.jpg">
+                    </div>
+                    <div id="navigator">
+                        <div id="blurred"></div>
+                        <ul>
+                            <li><img src="00extras/banner1.jpg"></li>
+                            <li><img src="00extras/banner2.jpg"></li>
+                            <li><img src="00extras/banner3.jpg"></li>
+                        </ul>
+                    </div>
+ 
+                </div>
+                <div id="push">
+                    Continue Waching
+                    <table>
+                        <tr>
+                            <td rowspan="2"> <img src="00extras/birinci.webp"></td>
+                            <td><span id="filmİsim">
+                                Soul
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>imdb point : 8,5</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td rowspan="2"> <img src="00extras/ikinci.jpg"></td>
+                            <td><span id="filmİsim">
+                                Soul
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>imdb point : 8,5</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td rowspan="2"> <img src="00extras/ucuncu.jpeg"></td>
+                            <td><span id="filmİsim">
+                                Soul
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>imdb point : 8,5</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="gezinti">
+                <div id="baslikholder">
+                    <h1 id="baslik">Popular Movies</h1>
+                    <span id="seemore">see more</span>
+                </div>
+                
+                <div id="movieholder">
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="movieisim">Inception</span>
+                        <span id="moviepoint">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i></span>
+                        
+                    </div>
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="moviepoint">8,5</span>
+                        <span id="movieisim">Inception</span>
+                    </div>
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="moviepoint">8,5</span>
+                        <span id="movieisim">Inception</span>
+                    </div>
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="moviepoint">8,5</span>
+                        <span id="movieisim">Inception</span>
+                    </div>
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="moviepoint">8,5</span>
+                        <span id="movieisim">Inception</span>
+                    </div>
+                    <div id="moviepush">
+                        <div id="poster">
+                            <img src="00extras/birinci.webp">
+                        </div>
+                        <span id="moviepoint">8,5</span>
+                        <span id="movieisim">Inception</span>
+                    </div>
+                </div>
+            </div>
+            </article>
+        </div>   
+        <nav>
+            <div id="hizala">
+                <div id="logo">
+                    <img src="00extras/logo.png">
+                </div>
+                <div id="menu">
+                    <span id="bannerTitle">Menu</span>
+                    <ul>
+                        <li><i class="fa-solid fa-house"></i> Home</li>
+                        <li><i class="fa-solid fa-film"></i> Movies</li>
+                        <li><i class="fa-solid fa-earth-americas"></i> Discover</li>
+                    </ul>
+                </div>
+                <span id="bannerTitle">Library</span>
+                <div id="library">
+                   <ul>
+                       <li><i class="fa-solid fa-arrow-rotate-left"></i> Recent</li>
+                       <li><i class="fa-solid fa-plus"></i> Tracked</li>
+                   </ul>
+                </div>
+                <span id="bannerTitle">General</span>
+                <div id="general">
+                   <ul>
+                       <li><i class="fa-solid fa-gear"></i> Setting</li>
+                       <li><i class="fa-solid fa-door-open"></i> Logout</li>
+                   </ul>
+                </div>
+                <div id="switch">
+                    <span id="bannerTitle">Mode</span>
+                    <ul>
+                        <li id="kucuk"><i class="fa-solid fa-sun"></i></i></li>
+                        <li id="kucuk"><i class="fa-regular fa-moon"></i></li>
+                    </ul>
+                </div>
+            </div>     
+        </nav>
+        
+        <footer>
+            burası footer
+        </footer>
+    </div>
+</body>
+</html>
